@@ -5,6 +5,9 @@ public class Task09_Labrador_KimLouise_SwitchActivity {
    {
        Scanner scanner = new Scanner(System.in);
 
+       System.out.print("--- Simple Calculator ---\n");
+
+       // Get user input for two numbers and an operator
        System.out.print("Enter first number: ");
        double num1 = ValidateDoubleInput(scanner);
 
@@ -15,7 +18,7 @@ public class Task09_Labrador_KimLouise_SwitchActivity {
        char operator = ValidateOperatorInput(scanner);
 
        // Display the result of the calculation
-       System.out.println("Result: " + Calculate(num1, num2, operator));
+       System.out.println("\n-- Result --\n" + num1 + " " + operator + " " + num2 + " = " + Calculate(num1, num2, operator));
 
        scanner.close();
    }
@@ -55,7 +58,7 @@ public class Task09_Labrador_KimLouise_SwitchActivity {
            return operator;
        else
        {
-           System.out.print("Invalid input. Please enter a valid operator (+, -, *, /): ");
+           System.out.print("Invalid operator. Please enter a valid operator (+, -, *, /): ");
            operator = ValidateOperatorInput(scanner); // Recursively call to get valid input
        }
 
