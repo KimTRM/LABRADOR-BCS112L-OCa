@@ -3,29 +3,43 @@ public class Task12_02_Labrador_KimLouise {
 
         // Multiplication Table using While Loop
         IO.println("Multiplication Table using While Loop\n");
-        int i = 1;
-        while (i <= 10) {
-            int j = 1;
-            while (j <= 10) {
-                IO.print(i * j + "\t");
-                j++;
+
+        int multiplicand1 = 1; // Initialize multiplicand starting from 1
+        while (multiplicand1 <= 10) {
+            int multiplictor1 = 1; // Initialize multiplier for each row
+
+            // Calculate products for current row
+            while (multiplictor1 <= 10) {
+                int product = multiplicand1 * multiplictor1;
+                IO.print(product + "\t");
+
+                multiplictor1++;
             }
+
+            // Move to next line after completing a row
             IO.println();
-            i++;
+            multiplicand1++;
         }
 
         // Multiplication Table using Do While Loop
         IO.println("\nMultiplication Table using Do While Loop\n");
-        int m = 1;
+
+        int multiplicand2 = 1; // Initialize multiplicand starting from 1
         do {
-            int n = 1;
+            int multiplictor2 = 1;  // Initialize multiplier for each row
+
+            // Calculate products for current row
             do {
-                IO.print(m * n + "\t");
-                n++;
-            } while (n <= 10);
+                int product = multiplicand2 * multiplictor2;
+                IO.print(product + "\t");
+                
+                multiplictor2++;
+            } while (multiplictor2 <= 10);
+
+            // Move to next line after completing a row
             IO.println();
-            m++;
-        } while (m <= 10);
+            multiplicand2++;
+        } while (multiplicand2 <= 10);
 
     }
 }
