@@ -1,3 +1,5 @@
+package Intro_to_Prog;
+
 import java.util.Scanner;
 
 public class DWL2_BCS112L_OCa_Labrador_KimLouise {

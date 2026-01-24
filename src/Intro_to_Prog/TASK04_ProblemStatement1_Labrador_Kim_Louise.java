@@ -1,9 +1,9 @@
+package Intro_to_Prog;
+
 import java.util.Scanner;
 
-public class TASK04_ProblemStatement1_Labrador_Kim_Louise
-{
-    public static void main(String[] args)
-    {
+public class TASK04_ProblemStatement1_Labrador_Kim_Louise {
+    static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         // Input 5 numbers

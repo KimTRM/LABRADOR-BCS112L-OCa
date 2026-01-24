@@ -1,3 +1,5 @@
+package Intro_to_Prog;
+
 import java.util.Scanner;
 
 /*

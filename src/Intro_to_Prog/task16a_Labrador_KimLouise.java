@@ -1,3 +1,5 @@
+package Intro_to_Prog;
+
 public class task16a_Labrador_KimLouise {
     static void main() {
         // Declare an array of integers and count how many times the number 5 appears in it

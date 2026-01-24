@@ -1,3 +1,5 @@
+package Intro_to_Prog;
+
 import java.util.Scanner;
 
 public class Task12_01_Labrador_KimLouise {

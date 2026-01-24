@@ -1,3 +1,5 @@
+package Intro_to_Prog;
+
 public class Task12_02_Labrador_KimLouise {
     static void main() {
 
@@ -32,7 +34,7 @@ public class Task12_02_Labrador_KimLouise {
             do {
                 int product = multiplicand2 * multiplictor2;
                 IO.print(product + "\t");
-                
+
                 multiplictor2++;
             } while (multiplictor2 <= 10);
 

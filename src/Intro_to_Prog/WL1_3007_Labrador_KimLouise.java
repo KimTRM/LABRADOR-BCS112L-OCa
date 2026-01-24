@@ -1,3 +1,5 @@
+package Intro_to_Prog;
+
 public class WL1_3007_Labrador_KimLouise {
     static void main() {
         int counter = 0;

@@ -1,3 +1,5 @@
+package Intermediate_Prog;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 

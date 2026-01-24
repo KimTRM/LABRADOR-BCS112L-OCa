@@ -1,7 +1,9 @@
+package Intro_to_Prog;
+
 import java.util.Scanner;
 
 public class No1_Labrador_KimLouise_MidtermExam {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int level;
         String educationLevel;
@@ -9,18 +11,17 @@ public class No1_Labrador_KimLouise_MidtermExam {
         // Input Education Level
         System.out.print("Enter Education Level: ");
 
-        if(scanner.hasNextInt()){
+        if (scanner.hasNextInt()) {
             level = scanner.nextInt();
-        }
-        else {
+        } else {
             System.out.println("Invalid Input");
             return;
         }
 
         // Check Education Level
-        if (level >= 1 &&  level < 5)
+        if (level >= 1 && level < 5)
             educationLevel = "Elementary School";
-        else if (level >= 5 &&  level < 9)
+        else if (level >= 5 && level < 9)
             educationLevel = "Middle School";
         else if (level >= 9 && level < 13)
             educationLevel = "High School";

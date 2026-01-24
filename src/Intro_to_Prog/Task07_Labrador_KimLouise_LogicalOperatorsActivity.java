@@ -1,7 +1,9 @@
+package Intro_to_Prog;
+
 import java.util.Scanner;
 
 public class Task07_Labrador_KimLouise_LogicalOperatorsActivity {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         // Input

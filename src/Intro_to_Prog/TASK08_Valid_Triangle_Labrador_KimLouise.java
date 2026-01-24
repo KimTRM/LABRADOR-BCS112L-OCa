@@ -1,7 +1,9 @@
+package Intro_to_Prog;
+
 import java.util.Scanner;
 
 public class TASK08_Valid_Triangle_Labrador_KimLouise {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         // Ask the user to enter the three sides of a triangle

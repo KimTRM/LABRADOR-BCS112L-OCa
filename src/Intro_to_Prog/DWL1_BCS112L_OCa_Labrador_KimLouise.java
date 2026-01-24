@@ -1,3 +1,5 @@
+package Intro_to_Prog;
+
 import java.util.Scanner;
 
 public class DWL1_BCS112L_OCa_Labrador_KimLouise {
@@ -13,7 +15,7 @@ public class DWL1_BCS112L_OCa_Labrador_KimLouise {
 
         // Output the validated even number
         System.out.println("Valid even number entered: " + number);
-        
+
         input.close();
     }
 }
