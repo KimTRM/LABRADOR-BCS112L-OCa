@@ -1,3 +1,5 @@
+package Intermediate_Prog.task2;
+
 import java.util.Scanner;
 
 public class ShoppingCartSystem {
