@@ -1,4 +1,4 @@
-package Data_Structures_and_Algorithms.Task3;
+package Data_Structures_and_Algorithms.Activity3;
 
 public class SmartHomeTemp {
     static void main(String[] args) {
