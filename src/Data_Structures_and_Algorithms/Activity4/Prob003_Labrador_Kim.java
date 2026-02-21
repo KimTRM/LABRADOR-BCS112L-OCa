@@ -1,3 +1,5 @@
+package Data_Structures_and_Algorithms.Activity4;
+
 import java.util.Scanner;
 
 public class Prob003_Labrador_Kim {
