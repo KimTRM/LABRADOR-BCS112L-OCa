@@ -1,4 +1,4 @@
-package Data_Structures_and_Algorithms;
+package Data_Structures_and_Algorithms.Activity1;
 
 import java.util.Scanner;
 
@@ -16,7 +16,7 @@ public class VowelCounter {
 
         scanner.close();
     }
- 
+
     static int countVowels(String input) {
         int vowelCount = 0;
         for (char c : input.toLowerCase().toCharArray())

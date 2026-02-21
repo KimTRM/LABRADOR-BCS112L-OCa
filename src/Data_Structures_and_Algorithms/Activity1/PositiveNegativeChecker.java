@@ -1,4 +1,4 @@
-package Data_Structures_and_Algorithms;
+package Data_Structures_and_Algorithms.Activity1;
 
 import java.util.Scanner;
 
